@@ -1,0 +1,160 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+}
+
+header {
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  width: 100%;
+  background: linear-gradient(to right,#77c2e9,#6e43b8,#bf418a);
+}
+
+.kolo {
+  width: 100%;
+  height: 100vh;
+  background-image: url(kartinki-na-zadnij-fon-38.jpg);
+}
+button:hover {
+  cursor: pointer;
+}
+.like {
+  width: 470px;
+  height: 50px;
+  font-size: 50px;
+  font-family: 'Fredoka One', cursive;
+  position: absolute;
+  top:3px;
+  color:white;
+}
+li{
+  list-style-type: none;
+}
+ul{
+  width: 100%;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 100vh;
+  background: linear-gradient(to top,#77c2e9,#6e43b8,#bf418a);
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+.sidebar a:hover {
+  background-color: #555;
+  color: white;
+}
+.recklama1 {
+  width:300px;
+  height:450px;
+  left:calc(30% - 200px);
+  position: absolute;
+  border:2px solid black;
+  background:linear-gradient(to top,#5ac8c8 ,#16c584 ,#774a4b);
+}
+.recklama2 {
+  width:300px;
+  height:450px;
+  left:calc(50% - 200px);
+  position: absolute;
+  border:2px solid black;
+background:linear-gradient(to top,#8c7cba ,#8cb8a7 ,#44baae);
+}
+.recklama3 {
+  width:300px;
+  height:450px;
+  left:calc(70% - 200px);
+  position: absolute;
+  border:2px solid black;
+  background:linear-gradient(to top,#bd4b4f,#021c41 ,#89c8e5);
+}
+.photo {
+  width: 200px;
+  height: 264px;
+}
+p {
+  font-size: 20px;
+  color:#fa3c3c;
+}
+.photo2 {
+  width: 365px;
+  height: 500px;
+}
+.recklama4 {
+  width:650px;
+  height:750px;
+  left:calc(30% - 200px);
+  position: absolute;
+  border:2px solid black;
+  display: flex;
+}
+.photo3 {
+  width: 290px;
+  height: 320px;
+}
+footer {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(to right, #77c2e9, #6e43b8);
+  position: absolute;
+}
+.Netflix {
+  width: 250px;
+  height: 125px;
+  margin-left: 400px;
+}
+.one {
+  left:750px;
+  font-size: 20px;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  top:30px;
+}
+.two {
+  left:750px;
+  font-size: 20px;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  top:60px;
+}
+.bro {
+  left:1000px;
+  font-size: 20px;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  top:30px;
+}
+.time {
+  font-size: 12px;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  color:#c4c4c4;
+  left:400px;
+  top:100px;
+}
+table {
+  left:400px;
+  position: absolute;
+}
+th,td {
+  font-size: 25px;
+}
+th {
+  color:#b3b3b3;
+}
